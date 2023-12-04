@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Header from "./components/Header/Header";
+import Productstatus from "./components/Productstatus/Productstatus";
+import Search from "./components/Search/Search";
+import Productdeatis from "./components/Productdeatis/Productdeatis";
+import { useEffect } from "react";
+import data from "./data/db";
+import { useDispatch, useSelector } from "react-redux";
+import { addItem } from "./redux/action";
+import EditProductModalContent from "./components/EditProductModalContent/EditProductModalContent";
 function App() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    console.log(data);
+    dispatch(addItem(data));
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Productstatus />
+      <Productdeatis />
     </div>
   );
 }

@@ -1,0 +1,21 @@
+.product-status-outer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.product-status-outer .inner-box {
+  /* border: 3px solid rgb(12, 6, 6); */
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.product-status-outer .inner-box div {
+  border-left: 0.5px solid rgb(201, 201, 201);
+  padding: 2rem;
+  margin: 0.3rem 0;
+}
+.product-status-outer .inner-box div .table-icon {
+  margin-right: 10px;
+}

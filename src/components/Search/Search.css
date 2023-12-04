@@ -1,0 +1,32 @@
+.outer-search-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.outer-search-box .inner-search-box {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.search-box {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 0.2rem 1rem;
+  text-align: center;
+}
+.search-box input {
+  padding: 0.2rem 1rem;
+  border: none;
+  outline: none;
+}
+button {
+  display: inline-block;
+  padding: 0.4rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.add-btn {
+  margin-right: 1rem;
+  border: 2px solid green;
+  background: transparent;
+}

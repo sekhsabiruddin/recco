@@ -1,0 +1,51 @@
+.outer-header {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  width: 100%;
+}
+.outer-header .header-above-part {
+  /* border: 3px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 4rem;
+  background-color: rgb(21 113 1);
+}
+
+.outer-header .header-above-part .above-left a {
+  display: inline-block;
+  margin-left: 3rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgb(231, 235, 235);
+}
+.outer-header .header-above-part .above-left .logo {
+  margin-left: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.outer-header .header-middle-part {
+  margin: 0 5px;
+  padding: 0.2rem 4rem;
+}
+.outer-header .header-below-part {
+  padding: 0.2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.outer-header .header-below-part .below-right button {
+  display: inline-block;
+  padding: 0.4rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.outer-header .header-below-part .below-right .back-btn {
+  margin-right: 1rem;
+  border: 2px solid green;
+  background: transparent;
+}
+.outer-header .header-below-part .below-right .approve-btn {
+  border: 0;
+  background: green;
+  color: #fff;
+}

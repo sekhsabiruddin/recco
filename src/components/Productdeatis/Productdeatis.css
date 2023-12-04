@@ -1,0 +1,73 @@
+.productdeatis-outer {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.productdeatis-outer .productdeatis-inner {
+  padding: 3rem 0;
+  width: 90%;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+.productdeatis-outer .productdeatis-inner table {
+  margin: auto;
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+.productdeatis-outer .productdeatis-inner table thead {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  border-radius: 10px;
+}
+.productdeatis-outer .productdeatis-inner table thead th {
+  padding: 1rem 2rem;
+}
+.productdeatis-outer .productdeatis-inner table tbody td {
+  padding: 1rem 0;
+  text-align: center;
+  border-bottom: 0.5px solid #ccc;
+}
+.productdeatis-outer .productdeatis-inner table tbody td:last-child {
+  width: 30%;
+
+  cursor: pointer;
+  margin-left: 10px;
+}
+.productdeatis-outer .productdeatis-inner table tbody .table-status-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productdeatis-outer
+  .productdeatis-inner
+  table
+  tbody
+  .table-status-box
+  div
+  .table-icon {
+  margin-right: 10px;
+}
+.table-status-box .approved {
+  background-color: rgb(11 211 52 / 72%);
+  color: #fff;
+  border: 1px solid rgb(11 211 52 / 72%);
+}
+.table-status-box .missing-urgent {
+  background-color: rgba(211, 11, 11, 0.72);
+  color: #fff;
+  border: 1px solid #fff;
+}
+.table-status-box .missing {
+  background-color: rgb(253 15 15 / 72%);
+  color: #fff;
+  border: 1px solid rgb(246 246 246 / 72%);
+}
+.corect-icon,
+.cross-icon,
+.edit-icon {
+  font-weight: 100;
+  font-size: 1.5rem;
+}
